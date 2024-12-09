@@ -277,6 +277,19 @@
   color: white;
 }
 
+#about-content {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  margin: 10vh 0 5vh 0;
+}
+#about-content img {
+  width: 80vw;
+  height: auto;
+  margin: 0 10vw 0 10vw;
+}
+
+
 @media (max-width: 600px) {
     .header {
         height: 15vh;
@@ -387,5 +400,5 @@
 
     .footer-text {
         font-size:
-  
+    }
 }
