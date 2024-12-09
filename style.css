@@ -128,7 +128,7 @@
   width: 100vw;
   height: 90vh;
   position: relative;
-  margin: 20vh 0 5vh 0;
+  margin: 10vh 0 5vh 0;
   font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: row;
@@ -137,7 +137,8 @@
 #titles {
     display: flex;
     flex-direction: column;
-    margin: 20vh 0 0 10vw;
+    position: relative;
+    margin: 30vh 0 0 10vw;
 }
 
 #title {
@@ -150,11 +151,11 @@
     color: #7F7F7F;
 }
 
-#module {
-  width: 100vw;
-  height: 50vh;
-  position: absolute;
-  margin: 0 0 0 20vw;
+#picture {
+  width: 40vw;
+  height: auto;
+  position: relative;
+  margin: 10vh 0 0 10vw;
 }
 
 .section-title {
