@@ -245,3 +245,147 @@
     color: black;
 }
 
+.hamburger-menu {
+  display: none;
+  font-size: 5vh;
+  cursor: pointer;
+  margin-right: 5vw;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: white; /* Optional: Add background color */
+  position: absolute; /* Optional: Position the dropdown */
+  top: 10vh; /* Adjust based on your header height */
+  width: 100vw; /* Adjust based on your design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.mobile-menu .nav-text {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: 1vh 0;
+  padding: 1vh 2vw; /* Optional: Add padding */
+  width: 100%; /* Optional: Full width */
+  text-align: center; /* Optional: Center text */
+}
+
+.mobile-menu .nav-text:hover {
+  background-color: black; /* Optional: Add hover color */
+  color: white;
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 15vh;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #head {
+        width: 10vh;
+        height: 10vh;
+        margin: 2vh 2vw 2vh 2vw;
+    }
+
+    #name {
+        width: 80vw;
+        font-size: 5vh;
+    }
+
+    #icons {
+        margin-right: 2vw;
+    }
+
+    .icon {
+        width: 5vh;
+        height: 5vh;
+        margin: 1vh 1vw 1vh 1vw;
+    }
+
+    #nav {
+      display: none;
+  }
+
+  .hamburger-menu {
+      display: block;
+  }
+
+  .mobile-menu {
+      display: none;
+  }
+
+  .content {
+      flex-direction: column;
+      height: auto;
+  }
+
+    #titles {
+        margin: 10vh 0 0 5vw;
+    }
+
+    #title {
+        font-size: 8vh;
+    }
+
+    #subtitle {
+        font-size: 4vh;
+    }
+
+    #picture {
+        width: 80vw;
+        height: auto;
+        margin: 5vh 0 0 5vw;
+    }
+
+    .section-title {
+        font-size: 6vh;
+        margin: 5vh 0 5vh 5vw;
+    }
+
+    .work {
+        margin: 20vh 5vw 20vh 5vw;
+    }
+
+    .work-item {
+        width: 90vw;
+        height: 90vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .work-img {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    .work-title {
+        font-size: 6vh;
+        margin: 2vh 0 0 2vw;
+    }
+
+    .work-desc {
+        font-size: 3vh;
+        margin: 1vh 0 0 2vw;
+    }
+
+    .work-tags {
+        font-size: 2vh;
+        margin: 1vh 0 1vw 2vw;
+    }
+
+    .work-tag {
+        padding: 2vh 2vw 2vh 2vw;
+        margin: 0 2vw 2vw 0;
+    }
+
+    .footer {
+        height: 20vh;
+    }
+
+    .footer-text {
+        font-size:
+  
+}
