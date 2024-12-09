@@ -127,18 +127,23 @@
 .content {
   width: 100vw;
   height: 90vh;
-  position: relative;
+  position: sticky;
+  top: 10vh;
   margin: 10vh 0 5vh 0;
   font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: row;
+  background-image: url('src/back-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #titles {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 30vh 0 0 10vw;
+    margin: 60vh 10vw 10vh 60vw;
+    color: white;
 }
 
 #title {
@@ -148,8 +153,9 @@
 }
 #subtitle {
     font-size: 3vh;
-    color: #7F7F7F;
-}
+    position: relative;
+    margin: 5vh 0 0 0; 
+  }
 
 #picture {
   width: 40vw;
@@ -159,19 +165,22 @@
 }
 
 .section-title {
-    font-size: 5vh;
+    font-size: 4vh;
     font-family:'lato', sans-serif;
     font-weight: bold;
     margin: 5vh 0 5vh 10vw;
+    position: absolute;
 }
 
 .work {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    margin: 5vh 10vw 20vh 10vw;
+    position: sticky;
+    top: 10vh;
+    padding: 5vh 10vw 20vh 10vw;
     align-items: space-between;
     gap: 4vw;
+    background-color: white;
 }
 
 .work-item {
